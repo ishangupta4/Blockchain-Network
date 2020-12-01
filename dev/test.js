@@ -8,8 +8,8 @@ const currentBlockData = [
   {
     amount: 100,
     sender: "sdfssfs90434",
-    recipient: "asdfasdf9124",
+    recipient: "asdfasdf9724",
   },
 ];
 
-console.log(bitcoin.hashBlock(previousHash, currentBlockData, nonce));
+console.log(bitcoin.proofOfWork(previousHash, currentBlockData));
